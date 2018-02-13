@@ -1,11 +1,11 @@
 <html>
 	<head>
-		<title>Audio Test</title>
+		<title>jQuery SimpleAudioPlayer Testpage</title>
 	</head>
-
-	<link rel="stylesheet" href="simpleaudioplayer.css">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="jquery.simpleaudioplayer.min.js"></script>
+	<script src="dist/js/jquery.simpleaudioplayer.min.js"></script>
+	<link rel="stylesheet" href="dist/css/simpleaudioplayer.min.css">
 
 	<script>
 
@@ -33,7 +33,7 @@
 				]
 			});
 
-			/*$('#a2').simpleAudioPlayer();*/
+			$('#a2').simpleAudioPlayer();
 
 		});
 	</script>
