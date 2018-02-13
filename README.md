@@ -1,7 +1,9 @@
 # jQuery SimpleAudioPlayer Plugin
 A simple, plug-and-play jQuery Audioplayer Plugin for songs and audiobooks.
 
-![jQuery SimpleAudioPlayer Plugin](image1.PNG)
+<p align="center">
+  <img src="image1.PNG" width="500" title="jQuery SimpleAudioPlayer">
+</p>
 
 ## Setup
 Clone the repository and install the npm dependencies
