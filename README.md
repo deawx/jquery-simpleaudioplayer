@@ -1,7 +1,7 @@
 # jQuery SimpleAudioPlayer Plugin
 A simple, plug-and-play jQuery Audioplayer Plugin for songs and audiobooks.
 
-![jQuery SimpleAudioPlayer Plugin](image1.png)
+![jQuery SimpleAudioPlayer Plugin](image1.PNG)
 
 ## Setup
 Clone the repository and install the npm dependencies
@@ -17,13 +17,16 @@ $ npm install
 Include the minified CSS and JS-Files and transform any HTML5 <audio>-Element into a SimpleAudioPlayer Instance.
 To instanciate the Plugin, call `.simpleAudioPlayer()` when the DOM is ready.
 
+
 ```js
 $(document).ready(function() {
 	$('audio').simpleAudioPlayer();
 });
 ```
 
+
 Simply calling `.simpleAudioPlayer()` appends no custom title to the song you're playing. To set a title, use either the `data-title` attribute on the <audio>-Element or bind it to the options-object like that:
+
 
 ```
 <audio id="myAudio" src="song.mp3" data-title="The Beatles - Blackbird"></audio>
@@ -38,6 +41,7 @@ $('audio').simpleAudioPlayer({
 
 ### Chapters
 SimpleAudioPlayer is made for long songs, symphonies or audiobooks. To use a list of chapters, declare them in the options-object by using a title and the position of the chapter (in seconds):
+
 
 ```js
 $('#a1').simpleAudioPlayer({
