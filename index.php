@@ -4,7 +4,7 @@
 	</head>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="dist/js/jquery.simpleaudioplayer.min.js"></script>
+	<script src="dist/js/jquery.simpleaudioplayer.js"></script>
 	<link rel="stylesheet" href="dist/css/simpleaudioplayer.min.css">
 
 	<script>
@@ -33,7 +33,7 @@
 				]
 			});
 
-			$('#a2').simpleAudioPlayer();
+			
 
 		});
 	</script>
@@ -43,7 +43,7 @@
 			box-sizing: border-box;
 		}
 		body {
-			background: #f6f6f6;
+			background: #fff;
 			margin: 0;
 			padding: 0;
 		}
@@ -63,8 +63,8 @@
 	<body>
 
 		<main>
-			<audio id="a1" src="song1.mp3"></audio>
-			<audio id="a2" src="song2.mp3" data-title="The Beatles - Blackbird"></audio>
+			<audio id="a1" src="misc/song1.mp3"></audio>
+			<audio id="a2" src="misc/song2.mp3" data-title="The Beatles - Blackbird"></audio>
 		</main>
 
 	</body>
