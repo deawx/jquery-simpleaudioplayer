@@ -14,7 +14,7 @@ $ npm install
 ## Usage
 
 ### Basic
-After including jQuery, include the minified CSS and JS-Files and transform any HTML5 ```<audio>``` Element into a SimpleAudioPlayer Instance.
+After including jQuery, include the minified CSS and JS-Files.
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,7 +22,7 @@ After including jQuery, include the minified CSS and JS-Files and transform any 
 <link rel="stylesheet" href="dist/css/simpleaudioplayer.min.css">
 ```
 
-To instanciate the Plugin, call `.simpleAudioPlayer()` when the DOM is ready.
+To instanciate the Plugin, call `.simpleAudioPlayer()` when the DOM is ready to transform any HTML5 ```<audio>``` Element into a SimpleAudioPlayer Instance.
 
 
 ```js
@@ -35,7 +35,7 @@ $(document).ready(function() {
 Simply calling `.simpleAudioPlayer()` appends no custom title to the song you're playing. To set a title, use either the `data-title` attribute on the ```<audio>``` Element or bind it to the options-object like that:
 
 
-```
+```html
 <audio id="myAudio" src="song.mp3" data-title="The Beatles - Blackbird"></audio>
 ```
 or
